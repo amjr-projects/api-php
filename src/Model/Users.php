@@ -3,6 +3,7 @@
 namespace Api\src\Model;
 
 use Exception;
+use PDO;
 
 class Users
 {
@@ -27,6 +28,39 @@ class Users
                 $query->bindValue(':id_state', $data->id_state);
                 if ($query->execute()) {
                     return true;
+                }
+            } catch (Exception $e) {
+                return $e->getMessage();
+            }
+        }
+        return false;
+    }
+
+    public function selectUser(int $id)
+    {
+        if (isset($this->connection)) {
+            try {
+                $sql = "SELECT * FROM tb_users WHERE id_user = :id";
+                $query = $this->connection->prepare($sql);
+                $query->bindValue(':id', $id);
+                if ($query->execute()) {
+                    return $query->fetch(PDO::FETCH_OBJ);
+                }
+            } catch (Exception $e) {
+                return $e->getMessage();
+            }
+        }
+        return false;
+    }
+
+    public function selectUsers()
+    {
+        if (isset($this->connection)) {
+            try {
+                $sql = "SELECT * FROM tb_users";
+                $query = $this->connection->prepare($sql);
+                if ($query->execute()) {
+                    return $query->fetchAll(PDO::FETCH_OBJ);
                 }
             } catch (Exception $e) {
                 return $e->getMessage();

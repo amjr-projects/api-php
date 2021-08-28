@@ -6,5 +6,10 @@
             "email": "53192314+acir-junior@users.noreply.github.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Api": "Api"
+        }
+    },
     "require": {}
 }
