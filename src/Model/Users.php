@@ -1,6 +1,6 @@
 <?php
 
-namespace Api\src\Model;
+namespace src\Model;
 
 use Exception;
 use PDO;
@@ -36,7 +36,7 @@ class Users
         return false;
     }
 
-    public function selectUser(int $id)
+    public static function selectUser(int $id)
     {
         if (isset($this->connection)) {
             try {
@@ -47,13 +47,13 @@ class Users
                     return $query->fetch(PDO::FETCH_OBJ);
                 }
             } catch (Exception $e) {
-                return $e->getMessage();
+                throw new \Exception("Nenhum usuário encontrado!");
             }
         }
         return false;
     }
 
-    public function selectUsers()
+    public static function selectUsers()
     {
         if (isset($this->connection)) {
             try {
@@ -63,7 +63,7 @@ class Users
                     return $query->fetchAll(PDO::FETCH_OBJ);
                 }
             } catch (Exception $e) {
-                return $e->getMessage();
+                throw new \Exception("Não há nenhum usuário cadastrado!");
             }
         }
         return false;

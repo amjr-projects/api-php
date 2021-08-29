@@ -15,7 +15,7 @@ CREATE TABLE tb_users (
 CREATE TABLE tb_address (
 	id_address INT NOT NULL AUTO_INCREMENT,
     name_address VARCHAR(55),
-    PRIMARY KEY (id_city)
+    PRIMARY KEY (id_address)
 );
 
 CREATE TABLE tb_city (
@@ -27,5 +27,5 @@ CREATE TABLE tb_city (
 CREATE TABLE tb_state (
 	id_state INT NOT NULL AUTO_INCREMENT,
     name_state VARCHAR(55),
-    PRIMARY KEY (id_city)
+    PRIMARY KEY (id_state)
 );

@@ -1,6 +1,6 @@
 <?php
 
-namespace Api\src\Model;
+namespace src\Model;
 
 use Exception;
 
@@ -13,7 +13,7 @@ class State
         $this->connection = $connect;
     }
 
-    public function insertState($state)
+    public static function insertState($state)
     {
         if (isset($this->connection)) {
             try {

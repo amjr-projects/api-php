@@ -1,6 +1,6 @@
 <?php
 
-namespace Api\src\Model;
+namespace src\Model;
 
 use Exception;
 
@@ -13,7 +13,7 @@ class Address
         $this->connection = $connect;
     }
 
-    public function insertAddress($address)
+    public static function insertAddress($address)
     {
         if (isset($this->connection)) {
             try {
