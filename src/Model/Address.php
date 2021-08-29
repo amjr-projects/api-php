@@ -23,7 +23,7 @@ class Address
                 $query = $this->connection->prepare($sql);
                 $query->bindValue(':name_address', $address->name_address);
                 if ($query->execute()) {
-                    return true;
+                    return $query->lastInsertId();
                 }
             } catch (Exception $e) {
                 return $e->getMessage();

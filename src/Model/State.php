@@ -23,12 +23,17 @@ class State
                 $query = $this->connection->prepare($sql);
                 $query->bindValue(':name_state', $state->name_state);
                 if ($query->execute()) {
-                    return true;
+                    return $query->lastInsertId();
                 }
             } catch (Exception $e) {
                 return $e->getMessage();
             }
         }
         return false;
+    }
+
+    public static function getStates()
+    {
+        
     }
 }

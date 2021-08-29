@@ -1,6 +1,6 @@
 <?php
 
-namespace Api\src\Connection;
+namespace src\Connection;
 
 use PDO;
 

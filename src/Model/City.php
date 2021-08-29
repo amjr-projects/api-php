@@ -23,7 +23,7 @@ class City
                 $query = $this->connection->prepare($sql);
                 $query->bindValue(':name_city', $city->name_city);
                 if ($query->execute()) {
-                    return true;
+                    return $query->lastInsertId();
                 }
             } catch (Exception $e) {
                 return $e->getMessage();
