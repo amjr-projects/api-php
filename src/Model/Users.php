@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Model;
+namespace Src\Model;
 
 use Exception;
 use PDO;
@@ -36,7 +36,7 @@ class Users
         return false;
     }
 
-    public static function selectUser(int $id)
+    public function selectUser(int $id)
     {
         if (isset($this->connection)) {
             try {
@@ -53,7 +53,7 @@ class Users
         return false;
     }
 
-    public static function selectUsers()
+    public function selectUsers()
     {
         if (isset($this->connection)) {
             try {
@@ -61,6 +61,45 @@ class Users
                 $query = $this->connection->prepare($sql);
                 if ($query->execute()) {
                     return $query->fetchAll(PDO::FETCH_OBJ);
+                }
+            } catch (Exception $e) {
+                throw new \Exception("Não há nenhum usuário cadastrado!");
+            }
+        }
+        return false;
+    }
+
+    public function selectUsersCity($city)
+    {
+        if (isset($this->connection)) {
+            try {
+                $sql = "SELECT COUNT(US.id_user) AS USERCITY FROM tb_users US 
+                            INNER JOIN tb_city C ON C.id_city = US.id_user
+                        WHERE C.name_city = :name_city";
+                $query = $this->connection->prepare($sql);
+                $query->bindValue(':name_city', $city);
+                if ($query->execute()) {
+                    return $query->fetchAll(PDO::FETCH_OBJ);
+                }
+            } catch (Exception $e) {
+                throw new \Exception("Não há nenhum usuário cadastrado!");
+            }
+        }
+        return false;
+    }
+
+    public function selectUsersState($state)
+    {
+        // var_dump($state); die();
+        if (isset($this->connection)) {
+            try {
+                $sql = "SELECT COUNT(US.id_user) AS USERSTATE FROM tb_users US 
+                            INNER JOIN tb_state S ON S.id_state = US.id_user
+                        WHERE S.name_state = :name_state";
+                $query = $this->connection->prepare($sql);
+                $query->bindValue(':name_state', $state);
+                if ($query->execute()) {
+                    return $query->fetch(PDO::FETCH_OBJ);
                 }
             } catch (Exception $e) {
                 throw new \Exception("Não há nenhum usuário cadastrado!");

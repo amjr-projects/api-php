@@ -12,12 +12,12 @@ class Connection
     {
         try {
             if (!isset(self::$dbApi)) {
-                $dsn = "mysql:localhost;dbname=dbapi";
-                self::$dbApi = new PDO($dsn, "root", "Julia@na07");
+                $dsn = "mysql:host=127.0.0.1;dbname=dbapi";
+                self::$dbApi = new PDO($dsn, "root", "");
                 self::$dbApi->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                self::$dbApi->query("SET NAMES 'utf-8'");
+                self::$dbApi->query("SET NAMES 'utf8'");
             }
-
+            
             return self::$dbApi; 
         } catch (\Throwable $th) {
             echo "ERRO: " . $th->getMessage();

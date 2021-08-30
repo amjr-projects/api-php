@@ -1,0 +1,274 @@
+[30-Aug-2021 13:46:06 Europe/Berlin] PHP Notice:  Undefined index: url in C:\xampp\htdocs\api-php\public_html\index.php on line 5
+[30-Aug-2021 13:46:06 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 13:46:06 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 14:56:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\api-php\public_html\index.php on line 14
+[30-Aug-2021 14:56:30 Europe/Berlin] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in C:\xampp\htdocs\api-php\public_html\index.php on line 11
+[30-Aug-2021 14:56:30 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 14:56:30 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 14:56:30 Europe/Berlin] PHP   2. ucfirst() C:\xampp\htdocs\api-php\public_html\index.php:11
+[30-Aug-2021 15:24:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 17
+[30-Aug-2021 15:27:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 17
+[30-Aug-2021 15:28:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 19
+[30-Aug-2021 15:31:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 19
+[30-Aug-2021 15:46:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 19
+[30-Aug-2021 15:47:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 20
+[30-Aug-2021 15:48:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 19
+[30-Aug-2021 15:51:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 15
+[30-Aug-2021 15:52:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 21
+[30-Aug-2021 15:53:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 21
+[30-Aug-2021 15:56:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 18
+[30-Aug-2021 15:58:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 18
+[30-Aug-2021 15:58:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 18
+[30-Aug-2021 15:59:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 18
+[30-Aug-2021 16:03:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 18
+[30-Aug-2021 16:04:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 21
+[30-Aug-2021 16:08:09 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\api-php\public_html../vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\api-php\public_html\index.php on line 5
+[30-Aug-2021 16:08:09 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 16:08:09 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 16:08:09 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'C:\xampp\htdocs\api-php\public_html../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\api-php\public_html\index.php on line 5
+[30-Aug-2021 16:08:09 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 16:08:09 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 16:08:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 21
+[30-Aug-2021 16:21:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'src\Service\UserService' not found in C:\xampp\htdocs\api-php\public_html\index.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 21
+[30-Aug-2021 16:30:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 19
+[30-Aug-2021 16:30:16 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 16:30:16 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 16:30:30 Europe/Berlin] PHP Notice:  Undefined variable: response in C:\xampp\htdocs\api-php\public_html\index.php on line 22
+[30-Aug-2021 16:30:30 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 16:30:30 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 16:32:40 Europe/Berlin] PHP Notice:  Trying to get property 'insert' of non-object in C:\xampp\htdocs\api-php\public_html\index.php on line 25
+[30-Aug-2021 16:32:40 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 16:32:40 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 16:32:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\api-php\public_html\index.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 25
+[30-Aug-2021 16:33:26 Europe/Berlin] PHP Notice:  Trying to get property 'inserUser' of non-object in C:\xampp\htdocs\api-php\public_html\index.php on line 25
+[30-Aug-2021 16:33:26 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 16:33:26 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 16:33:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\api-php\public_html\index.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 25
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP Notice:  Trying to get property 'name_address' of non-object in C:\xampp\htdocs\api-php\src\Model\Address.php on line 24
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP   2. src\Service\UserService->inserUser() C:\xampp\htdocs\api-php\public_html\index.php:29
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP   3. src\Model\Address->insertAddress() C:\xampp\htdocs\api-php\src\Service\UserService.php:38
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP Notice:  Trying to get property 'name_city' of non-object in C:\xampp\htdocs\api-php\src\Model\City.php on line 24
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP   2. src\Service\UserService->inserUser() C:\xampp\htdocs\api-php\public_html\index.php:29
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP   3. src\Model\City->insertCity() C:\xampp\htdocs\api-php\src\Service\UserService.php:39
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP Notice:  Trying to get property 'name_state' of non-object in C:\xampp\htdocs\api-php\src\Model\State.php on line 24
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP   2. src\Service\UserService->inserUser() C:\xampp\htdocs\api-php\public_html\index.php:29
+[30-Aug-2021 17:22:44 Europe/Berlin] PHP   3. src\Model\State->insertState() C:\xampp\htdocs\api-php\src\Service\UserService.php:40
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP Notice:  Trying to get property 'name_address' of non-object in C:\xampp\htdocs\api-php\src\Model\Address.php on line 24
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP   2. src\Service\UserService->inserUser() C:\xampp\htdocs\api-php\public_html\index.php:29
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP   3. src\Model\Address->insertAddress() C:\xampp\htdocs\api-php\src\Service\UserService.php:38
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP Notice:  Trying to get property 'name_city' of non-object in C:\xampp\htdocs\api-php\src\Model\City.php on line 24
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP   2. src\Service\UserService->inserUser() C:\xampp\htdocs\api-php\public_html\index.php:29
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP   3. src\Model\City->insertCity() C:\xampp\htdocs\api-php\src\Service\UserService.php:39
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP Notice:  Trying to get property 'name_state' of non-object in C:\xampp\htdocs\api-php\src\Model\State.php on line 24
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP   2. src\Service\UserService->inserUser() C:\xampp\htdocs\api-php\public_html\index.php:29
+[30-Aug-2021 17:23:16 Europe/Berlin] PHP   3. src\Model\State->insertState() C:\xampp\htdocs\api-php\src\Service\UserService.php:40
+[30-Aug-2021 17:28:45 Europe/Berlin] PHP Notice:  Undefined variable: dbApi in C:\xampp\htdocs\api-php\src\connection\Connection.php on line 20
+[30-Aug-2021 17:28:45 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 17:28:45 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 17:28:45 Europe/Berlin] PHP   2. src\Service\UserService->inserUser() C:\xampp\htdocs\api-php\public_html\index.php:29
+[30-Aug-2021 17:28:45 Europe/Berlin] PHP   3. src\Connection\Connection::connectDbApi() C:\xampp\htdocs\api-php\src\Service\UserService.php:31
+[30-Aug-2021 18:47:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method src\Service\UserService::getUser() in C:\xampp\htdocs\api-php\public_html\index.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\api-php\public_html\index.php on line 23
+[30-Aug-2021 18:49:04 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 23
+[30-Aug-2021 18:49:04 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 18:49:04 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:36:55 Europe/Berlin] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'src\Service\UserService' does not have a method 'GET' in C:\xampp\htdocs\api-php\public_html\index.php on line 22
+[30-Aug-2021 19:36:55 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:36:55 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:37:02 Europe/Berlin] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'src\Service\UserService' does not have a method 'GET' in C:\xampp\htdocs\api-php\public_html\index.php on line 22
+[30-Aug-2021 19:37:02 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:37:02 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:47:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 22
+[30-Aug-2021 19:47:13 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:47:13 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:47:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 22
+[30-Aug-2021 19:47:28 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:47:28 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:48:49 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 22
+[30-Aug-2021 19:48:49 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:48:49 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:52:45 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 22
+[30-Aug-2021 19:52:45 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:52:45 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:54:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 20
+[30-Aug-2021 19:54:13 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:54:13 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:54:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 20
+[30-Aug-2021 19:54:28 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:54:28 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:54:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 20
+[30-Aug-2021 19:54:28 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:54:28 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:54:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 20
+[30-Aug-2021 19:54:28 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:54:28 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 19:54:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 20
+[30-Aug-2021 19:54:31 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 19:54:31 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 20:19:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\api-php\public_html\index.php on line 20
+[30-Aug-2021 20:19:40 Europe/Berlin] PHP Stack trace:
+[30-Aug-2021 20:19:40 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\api-php\public_html\index.php:0
+[30-Aug-2021 20:19:58 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('user')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(43): src\Service\UserService->getUsers('user')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 20:20:13 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('user')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(42): src\Service\UserService->getUsers('user')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 20:55:09 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, array given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 21 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(21): Src\Model\Users->selectUser(Array)
+#1 C:\xampp\htdocs\api-php\public_html\index.php(23): src\Service\UserService->getUsers(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 20:59:26 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, array given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 21 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(21): Src\Model\Users->selectUser(Array)
+#1 C:\xampp\htdocs\api-php\public_html\index.php(29): src\Service\UserService->getUsers(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 20:59:37 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, array given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 21 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(21): Src\Model\Users->selectUser(Array)
+#1 C:\xampp\htdocs\api-php\public_html\index.php(29): src\Service\UserService->getUsers(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:02:26 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(29): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:03:01 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(29): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:03:26 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(29): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:03:37 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(29): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:04:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(29): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:05:35 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(29): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:07:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(33): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:11:52 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(33): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:12:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(33): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39
+[30-Aug-2021 21:13:01 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Src\Model\Users::selectUser() must be of the type int, string given, called in C:\xampp\htdocs\api-php\src\Service\UserService.php on line 20 and defined in C:\xampp\htdocs\api-php\src\Model\Users.php:39
+Stack trace:
+#0 C:\xampp\htdocs\api-php\src\Service\UserService.php(20): Src\Model\Users->selectUser('state')
+#1 C:\xampp\htdocs\api-php\public_html\index.php(33): src\Service\UserService->getUsers('state')
+#2 {main}
+  thrown in C:\xampp\htdocs\api-php\src\Model\Users.php on line 39

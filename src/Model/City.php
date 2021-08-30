@@ -3,6 +3,7 @@
 namespace src\Model;
 
 use Exception;
+use PDO;
 
 class City
 {
@@ -13,7 +14,7 @@ class City
         $this->connection = $connect;
     }
 
-    public static function insertCity($city)
+    public function insertCity($city)
     {
         if (isset($this->connection)) {
             try {
@@ -21,12 +22,45 @@ class City
                             tb_city(name_city)
                         VALUES(:name_city)";
                 $query = $this->connection->prepare($sql);
-                $query->bindValue(':name_city', $city->name_city);
+                $query->bindValue(':name_city', $city);
                 if ($query->execute()) {
-                    return $query->lastInsertId();
+                    return $this->connection->lastInsertId();
                 }
             } catch (Exception $e) {
                 return $e->getMessage();
+            }
+        }
+        return false;
+    }
+
+    public function selectCity(int $id)
+    {
+        if (isset($this->connection)) {
+            try {
+                $sql = "SELECT * FROM tb_city WHERE id_city = :id";
+                $query = $this->connection->prepare($sql);
+                $query->bindValue(':id', $id);
+                if ($query->execute()) {
+                    return $query->fetch(PDO::FETCH_OBJ);
+                }
+            } catch (Exception $e) {
+                throw new \Exception("Nenhum endereço encontrado!");
+            }
+        }
+        return false;
+    }
+
+    public function selectAllCity()
+    {
+        if (isset($this->connection)) {
+            try {
+                $sql = "SELECT * FROM tb_city";
+                $query = $this->connection->prepare($sql);
+                if ($query->execute()) {
+                    return $query->fetchAll(PDO::FETCH_OBJ);
+                }
+            } catch (Exception $e) {
+                throw new \Exception("Não há nenhum endereço cadastrado!");
             }
         }
         return false;
